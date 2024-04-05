@@ -1,0 +1,135 @@
+.content_password_login {
+
+    margin: 0 auto;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+    width: 30%;
+    min-height: 300px;
+    margin-bottom: 50px;
+    box-shadow: 3px 3px 1px rgb(244, 244, 244);
+    margin-top: 50px;
+}
+
+.input_content_password {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 25px;
+    text-align: center;
+    background-color: white;
+}
+
+.input_password_content {
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 90%;
+    background-color: white;
+}
+.input_login_password,
+.input_password_content:focus-visible {
+    outline: none;
+}
+
+.input_login_password {
+    border: 1px solid #a8a7a7;
+    padding: 10px 7px;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.remember_password_content {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.remember_password_login {
+    display: flex;
+    justify-content: space-between;
+    padding: 17px 20px;
+    background-color: white;
+    align-items: center;
+}
+.remember_password_login:hover>p{
+    cursor: pointer;
+    color:blue ;
+}
+.button_login_content {
+    border: 1px solid #a8a7a7;
+    background-color: #00B207;
+    border-radius: 5px;
+    width: 80%;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    margin: 0 auto;
+}
+.button_login_content:hover{
+    cursor: pointer;
+    background-color: blue;
+}
+.find_login {
+    padding-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.subcribe_content_text {
+    width: 28%;
+    font-size: 13px;
+}
+
+.input_subcribe_content_text {
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    padding-left: 20px;
+}
+
+.input_subcribe_content_text:focus-visible {
+    outline: 0;
+}
+
+.button_subcribe {
+    border: 1px solid #a8a7a7;
+    background-color: #00B207;
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+    margin-left: -30px;
+}
+
+.button_subcribe_content_text {
+    display: flex;
+}
+
+.subcribe_content {
+    display: flex;
+    gap: 90px;
+    padding-left: 60px;
+    background-color: #F7F7F7;
+    height: 150px;
+    padding-top: 50px;
+    margin-top: 40px;
+}
+
+.subcribe_content_text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.button_subcribe:hover{
+    cursor: pointer;
+    background-color: blue;
+}
